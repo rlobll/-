@@ -1,0 +1,99 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p,
+a {
+  font-size: 18px;
+}
+
+/* total */
+.total {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 0 100px;
+}
+
+/* display - flex */
+.start,
+.wepsite,
+.skill_list {
+  display: flex;
+}
+
+/* start css */
+.start {
+  margin-top: 50px;
+}
+.start img {
+  width: 200px;
+  /* height: 50px; */
+}
+
+/* site css */
+.site {
+  margin-top: 50px;
+}
+.wepsite {
+  gap: 150px;
+}
+
+/* profile css */
+.profile {
+  margin-top: 50px;
+}
+.profile h2 {
+  border-bottom: 1.5px solid black;
+  padding-bottom: 10px;
+}
+.profile p {
+  padding-top: 20px;
+}
+
+/* skill css */
+.skill {
+  margin-top: 50px;
+}
+.skill h2 {
+  border-bottom: 1.5px solid black;
+  padding-bottom: 10px;
+}
+.skill_list {
+  padding-top: 20px;
+  gap: 150px;
+}
+.skill_list ul {
+  padding: 10px 0 0 15px;
+}
+
+/* project css */
+.project {
+  margin-top: 50px;
+}
+.project h2 {
+  border-bottom: 1.5px solid black;
+  padding-bottom: 10px;
+}
+.project_list {
+  padding-top: 10px;
+}
+
+/* top_btn css */
+.top_btn {
+  position: fixed;
+  right: 350px;
+  bottom: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: black;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+}
