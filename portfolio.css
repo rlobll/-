@@ -23,8 +23,7 @@ a {
 
 /* display - flex */
 .start,
-.wepsite,
-.skill_list {
+.wepsite {
   display: flex;
 }
 
@@ -35,6 +34,10 @@ a {
 .start img {
   width: 200px;
   /* height: 50px; */
+  margin-right: 10px;
+}
+.start_greetings h3 {
+  margin-bottom: 30px;
 }
 
 /* site css */
@@ -69,8 +72,38 @@ a {
   padding-top: 20px;
   gap: 150px;
 }
-.skill_list ul {
-  padding: 10px 0 0 15px;
+/**/
+.hard_skill {
+  margin-bottom: 50px;
+}
+.hard_skill h3 {
+  margin-bottom: 20px;
+}
+.hard_skill_img {
+  display: flex;
+  justify-content: space-between;
+}
+.hard_skill_img img {
+  width: 100px;
+  height: 100px;
+}
+/**/
+.soft_skill {
+  margin-bottom: 20px;
+}
+.soft_skill h3 {
+  margin-bottom: 20px;
+}
+.soft_skill_img {
+  display: flex;
+  justify-content: space-between;
+}
+.soft_skill_img div {
+  text-align: center;
+}
+.soft_skill_img img {
+  width: 100px;
+  height: 100px;
 }
 
 /* project css */
@@ -88,7 +121,7 @@ a {
 /* top_btn css */
 .top_btn {
   position: fixed;
-  right: 350px;
+  right: 100px;
   bottom: 50px;
   border: 1px solid black;
   border-radius: 50%;
