@@ -44,6 +44,9 @@ a {
 .site {
   border-top: 1.5px solid black;
 }
+.site a:hover {
+  color: #cbcbcb;
+}
 /**/
 .wepsite {
   gap: 150px;
