@@ -126,6 +126,7 @@ a {
 }
 .project_list {
   padding-top: 10px;
+  display: flex;
 }
 
 /* top_btn css */
