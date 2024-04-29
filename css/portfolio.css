@@ -126,7 +126,23 @@ a {
 }
 .project_list {
   padding-top: 10px;
+}
+.project_list_menu {
   display: flex;
+  cursor: pointer;
+  margin-bottom: 20px;
+  gap: 40px;
+}
+.project_list_menu h3:hover {
+  color: #cbcbcb;
+}
+.project_list img {
+  height: 500px;
+  width: 800px;
+}
+.project_list_second,
+.project_list_third {
+  display: none;
 }
 
 /* top_btn css */
