@@ -129,19 +129,33 @@ a {
 }
 .project_list_menu {
   display: flex;
-  cursor: pointer;
   margin-bottom: 20px;
   gap: 40px;
 }
-.project_list_menu h3:hover {
+.project_list_menu button {
+  border: none;
+  background: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
   color: #cbcbcb;
 }
-.project_list img {
-  height: 500px;
-  width: 800px;
+.project_list_menu button:hover {
+  color: black;
 }
-.project_list_second,
-.project_list_third {
+.project_list img {
+  width: 100%;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+/**/
+.project_menu_first {
+  color: black;
+}
+/**/
+.project_list_first img,
+.project_list_second img,
+.project_list_third img {
   display: none;
 }
 
