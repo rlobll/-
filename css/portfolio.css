@@ -5,8 +5,12 @@
 }
 
 a {
-  color: inherit;
+  color: #cbcbcb;
   text-decoration: none;
+}
+
+a:hover {
+  color: black;
 }
 
 p,
@@ -64,7 +68,12 @@ a {
 }
 .portfolio_link {
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1.5px solid black;
+  /* justify-content: space-between; */
+}
+.portfolio_link a {
+  margin-bottom: 10px;
 }
 
 /* skill css */
@@ -121,7 +130,7 @@ a {
   margin-top: 80px;
 }
 .project h2 {
-  border-bottom: 1.5px solid black;
+  /* border-bottom: 1.5px solid black; */
   padding-bottom: 10px;
 }
 .project_list {
@@ -153,9 +162,9 @@ a {
   color: black;
 }
 /**/
-.project_list_first img,
-.project_list_second img,
-.project_list_third img {
+.project_list_first,
+.project_list_second,
+.project_list_third {
   display: none;
 }
 

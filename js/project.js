@@ -60,4 +60,47 @@ window.onload = function () {
   //여기까지 버튼 색상 변경 코드
 
   //이미지
+
+  // JavaScript 코드 시작
+  // document.getElementById("button1").addEventListener("click", function () {
+  //   // 버튼1을 클릭했을 때
+  //   document.getElementById("list1").style.display = "block"; // list1을 보여줌
+  //   document.getElementById("list2").style.display = "none"; // list2를 숨김
+  //   document.getElementById("list3").style.display = "none"; // list3을 숨김
+  // });
+
+  // document.getElementById("button2").addEventListener("click", function () {
+  //   // 버튼2를 클릭했을 때
+  //   document.getElementById("list1").style.display = "none"; // list1을 숨김
+  //   document.getElementById("list2").style.display = "block"; // list2를 보여줌
+  //   document.getElementById("list3").style.display = "none"; // list3을 숨김
+  // });
+
+  // document.getElementById("button3").addEventListener("click", function () {
+  //   // 버튼3을 클릭했을 때
+  //   document.getElementById("list1").style.display = "none"; // list1을 숨김
+  //   document.getElementById("list2").style.display = "none"; // list2를 숨김
+  //   document.getElementById("list3").style.display = "block"; // list3을 보여줌
+  // });
+
+  // 버튼 개수와 목록 개수 설정
+  var numButtons = 3;
+  var numLists = 3;
+
+  // 반복문을 통해 각 버튼에 이벤트 리스너 추가
+  for (var i = 1; i <= numButtons; i++) {
+    var button = document.getElementById("button" + i);
+    button.addEventListener("click", function () {
+      var buttonId = this.id.slice(-1); // 클릭한 버튼의 마지막 문자(숫자)를 추출
+      // 해당 버튼에 대응하는 목록 보여주기
+      for (var j = 1; j <= numLists; j++) {
+        var list = document.getElementById("list" + j);
+        if (j === parseInt(buttonId)) {
+          list.style.display = "block";
+        } else {
+          list.style.display = "none";
+        }
+      }
+    });
+  }
 };
