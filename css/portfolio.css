@@ -10,7 +10,8 @@ a {
 }
 
 p,
-a {
+a,
+span {
   font-size: 18px;
 }
 
@@ -79,11 +80,14 @@ a {
 .project_file {
   margin-bottom: 15px;
 }
-.project a {
+.project_file a {
   color: #cbcbcb;
 }
-.project a:hover {
+.project_file a:hover {
   color: black;
+}
+.project_file span {
+  margin-left: 10px;
 }
 .project_img {
   display: flex;
