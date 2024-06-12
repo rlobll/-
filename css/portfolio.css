@@ -32,6 +32,8 @@ span {
 }
 .profile img {
   width: 200px;
+  border: 0.5px solid black;
+  border-radius: 30px;
 }
 .profile_txt {
   display: flex;
@@ -76,18 +78,21 @@ span {
 .project_title {
   font-weight: bold;
 }
-.project p,
+.project_title,
 .project_file {
   margin-bottom: 15px;
 }
-.project_file a {
+.project_file_txt {
+  margin-bottom: 5px;
+}
+.project_file_txt a {
   color: #cbcbcb;
 }
-.project_file a:hover {
+.project_file_txt a:hover {
   color: black;
 }
-.project_file span {
-  margin-left: 10px;
+.project_file_txt p {
+  margin-top: 5px;
 }
 .project_img {
   display: flex;
